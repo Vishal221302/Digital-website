@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7d0d00fb3f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    <script src="js/modernizr.custom.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="header" style="background-image: url('./images/banner-front.webp'); height: 100vh">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid  _bjdkk">
+                <a class="navbar-brand"><img src="./images/logo/logo_noicon.svg" alt="" width="100%"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <input type="checkbox" id="active">
+                <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+                <div class="wrapper">
+                    <video autoplay muted loop id="myVideo" width="100%">
+                        <source src="./clip/looped-video-blue_compressed.mp4" type="video/mp4">
+                    </video>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="header_heading text-center textWhite">
+                <h1 style="font-size: 4.5rem; font-weight: 600;">A Creative Digital Agency</h1>
+                <h2 style="font-size:3.4rem ; font-size: 600;">Focused On Growing Brands Online</h2>
+                <div class="mt-5">
+                    <h4 style="font-size: 28px; margin-top: 80px;">Want To See Our Work In Action?</h4>
+                    <div class=" btn js-play-video"> <img src="./images/download.svg" width="30" class="play-buttom"
+                            alt=""> <span style="font-size: 25px; margin-left: 20px;"> PLAY VIDEO</span></div>
+                    <div class="mt-3">
+                        <div class=" btn btn-outline-success button SPEAK">SPEAK WITH OUR EXPERTS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div style="background: url('./images/scally_dark_bg.webp'), no-repeat;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md text-center douletxte ">
+                    <h2 class="Partner">We Partner With Brands To</h2>
+                    <h1 class="Digital">Create Superior Digital Experiences</h1>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #fff;margin: 0px 70px;">
+        <div class="container" >
+            <div class="Fortune">From Start-Ups To Fortune 500, We Partner With Brands Of All Sizes</div>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="./images/logo/P&G.svg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="./images/logo/Sony.svg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="./images/logo/NFL.svg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="./images/logo/Xerox.svg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="./images/logo/HP.svg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="./images/logo/NYU.svg" alt="">
+                </div>
+            </div>
+            <div class="row" style="padding: 50px 0px;">
+                <div class="col-md-2 py-3">
+                    <img src="./images/logo/Knopp.svg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="./images/logo/DoForms.svg" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/logo/Tecnam.svg" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/logo/Newater.svg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="./images/logo/Grenco science.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md text-center douletxte ">
+                <h1 class="Digital">Create Superior Digital Experiences</h1>
+                <h2 class="Partner">We Partner With Brands To</h2>
+            </div>
+        </div>
+    </div>
+ </div> -->
+    <section class="thisnk">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md text-center">
+                    <h1 class="Digital-Agency textWhite">Full Service Digital Agency</h1>
+                </div>
+            </div>
+        </div>
+        <div class="tabs">
+            <input type="radio" id="tab1" name="tab-control" checked>
+            <input type="radio" id="tab2" name="tab-control">
+            <input type="radio" id="tab3" name="tab-control">
+            <input type="radio" id="tab4" name="tab-control">
+            <ul>
+                <li title="Features"><label for="tab1" role="button"><img src="./images/logo/svgexport-6.svg"
+                            alt=""><br><span>Branding &<br> Digital Strategies</span></label></li>
+                <li title="Delivery Content"><label for="tab2" role="button"><img src="./images/logo/svgexport-8.svg"
+                            class="svg_img" alt=""><br><span>Results-Driven<br> Digital Marketing</span></label></li>
+                <li title="Shipping"><label for="tab3" role="button"><img src="./images/logo/svgexport-7.svg"
+                            alt=""><br><span>WebDesign & App<br> Development</span></label></li>
+                <li title="Returns"><label for="tab4" role="button"><img src="./images/logo/svgexport-9.svg"
+                            alt=""><br><span>Custom Software<br> Development</span></label></li>
+            </ul>
+            <div class="slider">
+                <div class="indicator"></div>
+            </div>
+            <div class="content">
+                <section>
+                    <div
+                        style="background: url('./images/branding-digital-strategy.webp'); width: 100%; background-repeat: no-repeat; background-size: cover; position: absolute;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6"></div>
+                                <div class="col-md-6 ">
+                                    <div style="margin: 80px 0px; float: right;">
+                                        <span style="font-size:27px ;color:#000;">Integrating <strong>BRAND
+                                                STRATEGY</strong> <br>
+                                            with <strong>DIGITAL INITIATIVES</strong> to<br>improve <strong>CUSTOMER
+                                                EXPERIENCES</strong> <br>online & offline
+                                        </span>
+                                        <h6><a href="#" class="DEVELOPMENT">VIEW DIGITAL BRANDING SERVICES <i
+                                                    class="fa fa-chevron-right" aria-hidden="true"></i></a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div
+                        style="background: url('./images/web-design-app-development.webp'); width: 100%; background-repeat: no-repeat; background-size: cover; position: absolute;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6"></div>
+                                <div class="col-md-6 ">
+                                    <div style="margin: 80px 0px; float: right;">
+                                        <span style="font-size:27px ;color:#000;">Custom <strong> WEB & APP
+                                                DEVELOPMENT</strong> <br>
+                                            with strategic insights to generate <br><strong>GREATER BRAND
+                                                ENGAGEMENT,</strong><br><strong>HIGHER CONVERSIONS </strong>
+                                            and<br><strong>MEASURABLE RESULTS</strong>
+                                        </span>
+                                        <h6><a href="#" class="DEVELOPMENT">VIEW WEB DESIGN SERVICES
+                                                <i class="fa fa-chevron-right" aria-hidden="true"></i></a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img src="./images/web-design-app-development.webp" width="100%" alt="Image">  -->
+                </section>
+                <section>
+                    <div
+                        style="background: url('./images/result-driven-digital-marketing.webp'); width: 100%; background-repeat: no-repeat; background-size: cover; position: absolute;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6"></div>
+                                <div class="col-md-6 ">
+                                    <div style="margin: 80px 0px; float: right;">
+                                        <span style="font-size:27px ;color:#000;">Multi-channel marketing <br>approach
+                                            focused on<br>
+                                            <strong>INCREASED CONVERSIONS</strong><br><strong>REPEAT TRAFFIC </strong>
+                                            and generating<br>greater<strong> VISIBILITY</strong>
+                                        </span>
+                                        <h6><a href="#" class="DEVELOPMENT">VIEW DIGITAL MARKETING SERVICES
+                                                <i class="fa fa-chevron-right" aria-hidden="true"></i></a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img src="./images/result-driven-digital-marketing.webp" width="100%" alt="Image">  -->
+                </section>
+                <section>
+                    <div
+                        style="background: url('./images/custom-software-development.webp'); width: 100%; background-repeat: no-repeat; background-size: cover; position: absolute;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6"></div>
+                                <div class="col-md-6 ">
+                                    <div style="margin: 80px 0px; float: right;">
+                                        <span style="font-size:27px ;color:#000;">An agile approach to build scalable
+                                            <br>
+                                            <strong>CUSTOM SOFTWARE ,</strong> integrating<br>the <strong>LATEST
+                                                TECHNOLOGIES ,</strong>with a <br>dynamic <strong>USER-FRIENDLY
+                                                EXPERIENCE</strong>
+                                        </span>
+                                        <h6><a href="#" class="DEVELOPMENT">VIEW SOFTWARE DEVELOPMENT SERVICES <i
+                                                    class="fa fa-chevron-right" aria-hidden="true"></i></a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img src="./images/custom-software-development.webp" width="100%" alt="Image">  -->
+                </section>
+            </div>
+        </div>
+        <div style="background: url('./images/scally_dark_bg.webp'), no-repeat; position: relative;top: 284px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md text-center douletxte ">
+                        <h2 class="Partner">We Partner With Brands To</h2>
+                        <h1 class="Digital">Create Superior Digital Experiences</h1>
+                    </div>
+                </div>
+            </div>
+            <div style="background-color: #fff;margin: 0px 70px;">
+                <div class="container">
+                    <div class="Fortune">From Start-Ups To Fortune 500, We Partner With Brands Of All Sizes</div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="./images/logo/P&G.svg" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img src="./images/logo/Sony.svg" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img src="./images/logo/NFL.svg" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img src="./images/logo/Xerox.svg" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img src="./images/logo/HP.svg" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img src="./images/logo/NYU.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="row" style="padding: 50px 0px;">
+                        <div class="col-md-2 py-3">
+                            <img src="./images/logo/Knopp.svg" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img src="./images/logo/DoForms.svg" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./images/logo/Tecnam.svg" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./images/logo/Newater.svg" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img src="./images/logo/Grenco science.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md text-center douletxte ">
+                        <h1 class="Digital">Featured Agency Web Design Launches</h1>
+                        <h2 class="Partner">Custom B2B & B2C Websites Engineered To Perform</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="grid cs-style-4">
+                    <li>
+                        <figure>
+                            <div><img src="./images/tecnam_bg.webp" alt="img05"></div>
+                            <figcaption>
+                                <h3>Safari</h3>
+                                <span>Jacob Cummings</span>
+                                <a href="http://dribbble.com/shots/1116775-Safari">Take a look</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="grid cs-style-4">
+                <li>
+                    <figure>
+                        <div><img src="./images/bg-nw.webp" alt="img06"></div>
+                        <figcaption>
+                            <h3>Game Center</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="http://dribbble.com/shots/1118904-Game-Center">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div> -->
+            <div class="flifeImage">
+                <ul class="grid cs-style-4 ">
+                    <li>
+                        <figure>
+                            <div><img src="./images/tecnam_bg.webp" alt="img05"></div>
+                            <figcaption style="background:url('./images/Tecam_recent_mockup-min.webp') ; width: 100%;
+                            background-repeat: no-repeat;">
+                                <img src="./images/Tecam_recent_mockup-min.webp" alt="">
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div><img src="./images/bg-ev-universe.webp" alt="img05"></div>
+                            <figcaption style="background:url('./images/ev-mockup.webp') ; width: 100%;
+                            background-repeat: no-repeat;">
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div><img src="./images/sony_bg.webp" alt="img05"></div>
+                            <figcaption style="background:url('./images/Sony-mockup-min.webp') ;width: 100%;
+                            background-repeat: no-repeat;">
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div><img src="./images/bg-Rollink.webp" alt="img05"></div>
+                            <figcaption style="background:url('./images/rollink-mockup.webp') ; width: 100%;
+                            background-repeat: no-repeat;">
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div><img src="./images/Paul-min.webp" alt="img05"></div>
+                            <figcaption style="background:url('./images/PaulStuart_side-min.webp') ;width: 100%;
+                            background-repeat: no-repeat;">
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="grid cs-style-4 ">
+                    <li>
+                        <figure>
+                            <div><img src="./images/bg-nw.webp" alt="img05"></div>
+                            <figcaption style="background:url('./images/nw-mockup.webp');width: 100%;
+                            background-repeat: no-repeat;">
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div><img src="./images/bg-SNP.webp" alt="img05"></div>
+                            <figcaption style="background:url('./images/snp-mockup.webp') ;width: 100%;
+                            background-repeat: no-repeat;">
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div><img src="./images/B&O_bg.webp" alt="img05"></div>
+                            <figcaption style="background:url('./images/B&O-mockup-min.webp') ;width: 100%;
+                            background-repeat: no-repeat;">
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div><img src="./images/DSbls-min.webp" alt="img05"></div>
+                            <figcaption style="background:url('./images/DSBLS_side-min.webp') ;width: 100%;
+                            background-repeat: no-repeat;">
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div><img src="./images/bg-G2-Esports.webp" alt="img05"></div>
+                            <figcaption style="background:url('./images/g2-mockup.webp') ;width: 100%;
+                            background-repeat: no-repeat;">
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md" style="margin: 50px 0px;">
+                        <div class="Discuss_Your">Ready To Discuss Your Project?</div>
+                        <div class="_REQUEST">REQUEST A QUOTE</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            style="background: url('./images/exp-waves-t.jpg') no-repeat;background-size: cover; position: relative;top: 284px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <div class="text-center">
+                            <div class="Agency-Case">Digital Agency Case Studies</div>
+                            <di class="To-Market">From Concept To Market: We Engineer Projects For Superior Performance
+                            </di>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div
+                        style="background: url('./images/main-bg.webp') no-repeat;background-size: cover; height: 70vh; margin: 40px 40px; ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="_col-box-1">
+                                        <img src="./images/logo/HP White.svg" width="100" alt="">
+                                        <div class="Data-Based"> Data-Based Digital Strategy<br>Increases Repeat Sales
+                                            <br>Internationally
+                                        </div>
+                                        <div class="Explore">EXPLORE <i class="fa fa-chevron-right"
+                                                aria-hidden="true"></i></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="./images/main-item.webp" width="100%" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        style="background: url('./images/main-bg-1.webp') no-repeat;background-size: cover; height: 70vh; margin: 40px 40px; ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="./images/main-item 2.webp" width="100%" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="_col-box-2">
+                                        <img src="./images/logo/xerox-white.svg" width="40%" alt="">
+                                        <div class=" Multichannel-Digital">
+                                            Multichannel Digital Strategy <br>
+                                            Boosts Brand Awareness & Sales
+                                        </div>
+                                        <div class="Explore-1">EXPLORE <i class="fa fa-chevron-right"
+                                                aria-hidden="true"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        style="background: url('./images/main-bg-3.webp') no-repeat;background-size: cover; height: 70vh; margin: 40px 40px; ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="_col-box-1">
+                                        <img src="./images/logo/forms-white.svg" width="50%" alt="">
+                                        <div class="Data-Based"> Data-Based Digital Strategy<br>Increases Repeat Sales
+                                            <br>Internationally
+                                        </div>
+                                        <div class="Explore">EXPLORE <i class="fa fa-chevron-right"
+                                                aria-hidden="true"></i></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="./images/main-item-2.webp" width="100%" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parent_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md"></div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <video autoplay muted loop id="my_Video">
+                <source src="./clip/bg-waves.mp4" type="video/mp4">
+            </video>
+            <div class="content">
+                <h2 class="_Locations">A Digital Agency With U.S. & U.K. Locations</h2>
+                <h1 class="Partner_With">We Partner With Our Clients To Drive Results</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 py-5">
+                            <h2>Expert</h2>
+                            <h1 class="Team">Team Members</h1>
+                            <div class="bordersky"></div>
+                        </div>
+                        <div class="col-md-4 py-5">
+                            <h2>Results-Driven</h2>
+                            <h1 class="Team">Proactive Approach
+                            </h1>
+                            <div class="bordersky"></div>
+                        </div>
+                        <div class="col-md-4 py-5">
+                            <h2>Streamlined</h2>
+                            <h1 class="Team">Execution</h1>
+                            <div class="bordersky"></div>
+                        </div>
+                        <div class="col-md">
+                            <h1>Ready To Discuss Your Project?</h1>
+                            <div class="_REQUEST my-3">REQUEST A QUOTE</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="borderorange"></div>
+        </section>
+    </section>
+    <script src="js/toucheffects.js"></script>
+
+</body>
+
+</html>
